@@ -2,5 +2,11 @@
 . env.sh
 
 # PRINT PATHS TO BE TRAVERSED
-echo ${path[*]}
+echo ${path}
+
+# PRINT LENGTH OF ARRAY
+echo ${#path[@]}
+
+# PICK FIRST PATH AND GO THROUGH THE DIRECTORY
+echo ${path[0]}
 
